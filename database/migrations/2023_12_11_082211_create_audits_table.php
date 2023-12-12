@@ -17,10 +17,8 @@ return new class extends Migration
             $table->timestamps();
             $table->foreignId('user_id')
                 ->constrained();
-            //year
-            $table->integer('year');
+            $table->string('name');
             $table->string('template');
-            // $table->schemalessAttributes('assessment');
             $table->json('assessment');
         });
     }
