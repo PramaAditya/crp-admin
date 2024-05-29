@@ -57,6 +57,20 @@
     }
 }
 
+@media (max-width: 768px) {
+    .adaptive-logo{
+        display:none
+    }
+}
+.adaptive-mobile {
+    width:450px;
+}
+@media (max-width: 600px) {
+    .adaptive-mobile {
+        width:95vw;
+    }
+}
+
 [x-cloak] {
     display: none;
 }
